@@ -36,4 +36,4 @@ jobs:
       - name: Deploy
         run: |
           npm install -g surge
-          surge --project ./dist --token ${{ secrets.SURGE_TOKEN }}
+          surge --project ./dist --domain cda-correction-s03j02.surge.sh --token ${{ secrets.SURGE_TOKEN }}
